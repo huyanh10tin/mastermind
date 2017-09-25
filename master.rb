@@ -17,7 +17,7 @@ class MasterMind
 		puts "Code generated is #{@code.to_s}"
 	end
 	def makeCodeManual
-		puts "Please type code to set up codemaker:  "
+		puts "Please type code to set up codemaker: "
 		code = getInput
 		@code = code
 	end
